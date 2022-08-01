@@ -14,13 +14,15 @@ export default function Navbar() {
       color: 'white',
       position: 'fixed',
       transition: 'all 300ms',
-      py: 2 
+      py: 2 ,
+      zIndex: 100,
     },
     toolbar: {
       display: 'flex',
       justifyContent: 'space-between',
       width: '90%',
       margin: '0 auto',
+      zIndex: 100,
       py: 2
     }
   }

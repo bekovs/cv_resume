@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import AboutMe from "./components/AboutMe";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
@@ -7,8 +6,8 @@ function App() {
 
   return (
     <div>
+      <Navbar /> 
       <div className="Main">
-        <Navbar /> 
         <Main />
       </div>
       <div className="About">
