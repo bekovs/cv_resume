@@ -12,7 +12,7 @@ import CodeIcon from '@mui/icons-material/Code';
 
 const AboutMe = () => {
   return (
-    <Box sx={{display: 'flex', backgroundColor: 'white', justifyContent: 'space-around', zIndex: -10000, flexDirection: 'column', alignItems: 'center', minHeight: '100vh'}}>
+    <Box sx={{display: 'flex', backgroundColor: 'white', justifyContent: 'space-around', zIndex: -500, flexDirection: 'column', alignItems: 'center', minHeight: '100vh'}}>
       <Typography variant="h2" component="div" sx={{ margin: '5vmin 0'}}>
         About me
       </Typography>
@@ -45,7 +45,7 @@ const AboutMe = () => {
       >
         <Paper elevation={5}>
           <Box>
-            <Typography sx={{m: 5}} component="div" variant="h5">Personal Details</Typography>
+            <Typography sx={{m: 3}} component="div" variant="h5">Personal Details</Typography>
           </Box>
           <Box className="details">
             <Typography sx={{my: 2, mx: 5, fontWeight: 600, color: orange[700], fontSize: 'inherit'}} component="p" className="birth">Birthdate</Typography>
@@ -56,34 +56,34 @@ const AboutMe = () => {
         </Paper>
         <Paper elevation={5}>
         <Box>
-            <Typography sx={{m: 5}} component="div" variant="h5">My interests</Typography>
+            <Typography sx={{m: 3}} component="div" variant="h5">My interests</Typography>
           </Box>
           <Box sx={{display: 'flex', justifyContent: 'space-around', alignItems:'center', width:'80%', margin: '0 auto'}} className="interests">
             <Box sx={{width: "20%"}}>
               <CodeIcon />
-              <Typography sx={{mt:2}}>Coding</Typography>
+              <Typography sx={{mt:1}}>Coding</Typography>
             </Box>
             <Box sx={{width: "20%"}}>
               <SportsEsportsIcon />
-              <Typography sx={{mt:2}}>Games</Typography>
+              <Typography sx={{mt:1}}>Games</Typography>
             </Box>
             <Box sx={{width: "20%"}}>
               <LocalDrinkIcon />
-              <Typography sx={{mt:2}}>Cola</Typography>
+              <Typography sx={{mt:1}}>Cola</Typography>
             </Box>
           </Box>
           <Box sx={{display: 'flex', justifyContent: 'space-around', alignItems:'center', width:'80%', margin: '5vmin auto'}} className="interests">
             <Box sx={{width: "20%"}}>
               <AttachMoneyIcon />
-              <Typography sx={{mt:2}}>Money</Typography>
+              <Typography sx={{mt:1}}>Money</Typography>
             </Box>
             <Box sx={{width: "20%"}}>
               <LocalAirportIcon />
-              <Typography sx={{mt:2}}>Travel</Typography>
+              <Typography sx={{mt:1}}>Travel</Typography>
             </Box>
             <Box sx={{width: "20%"}}>
               <MusicNoteIcon />
-              <Typography sx={{mt:2}}>Music</Typography>
+              <Typography sx={{mt:1}}>Music</Typography>
             </Box>
           </Box>
         </Paper>

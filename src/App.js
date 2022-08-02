@@ -1,6 +1,7 @@
 import AboutMe from "./components/AboutMe";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
 
 function App() {
 
@@ -12,6 +13,9 @@ function App() {
       </div>
       <div className="About">
         <AboutMe />
+      </div>
+      <div className="Skills">
+        <Skills />
       </div>
       
     </div>

@@ -32,7 +32,8 @@ export default function Navbar() {
       backgroundColor: 'rgb(255,255,255,0.8)',
       color: 'black',
       position: 'fixed',
-      transition: 'all 300ms'
+      transition: 'all 300ms',
+      zIndex: 1000,
     },
     toolbar: {
       display: 'flex',
