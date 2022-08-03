@@ -22,14 +22,17 @@ export default function Navbar() {
       justifyContent: 'space-between',
       width: '90%',
       margin: '0 auto',
-      zIndex: 100,
+      zIndex: 1000,
       py: 2
     }
   }
 
   const navbarStylesOnScroll = {
     appbar: {
-      backgroundColor: 'rgb(255,255,255,0.8)',
+      background: 'rgba(255, 255, 255, 0.5)',
+      boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
+      backdropFilter: 'blur(5px)',
+      webkitBackdropFilter: 'blur(5px)',
       color: 'black',
       position: 'fixed',
       transition: 'all 300ms',
@@ -45,9 +48,8 @@ export default function Navbar() {
   }
 
   const [style, setStyle] = useState(navbarStyles);
-  console.log(style)
 
-  const handleScroll = (e) => {
+  const handleScroll = () => {
     if (window.scrollY !== 0) {
       setStyle(navbarStylesOnScroll);
     } else {

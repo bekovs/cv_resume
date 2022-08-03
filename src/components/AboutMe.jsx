@@ -12,7 +12,7 @@ import CodeIcon from '@mui/icons-material/Code';
 
 const AboutMe = () => {
   return (
-    <Box sx={{display: 'flex', backgroundColor: 'white', justifyContent: 'space-around', zIndex: -500, flexDirection: 'column', alignItems: 'center', minHeight: '100vh'}}>
+    <Box sx={{display: 'flex', backgroundColor: 'white', justifyContent: 'space-around', flexDirection: 'column', alignItems: 'center', minHeight: '100vh'}}>
       <Typography variant="h2" component="div" sx={{ margin: '5vmin 0'}}>
         About me
       </Typography>
@@ -33,7 +33,7 @@ const AboutMe = () => {
           my: 5,
           display: 'flex',
           justifyContent: 'space-between',
-          fontSize: '1.6vmin',
+          fontSize: '1.8vmin',
           flexWrap: 'wrap',
           '& > :not(style)': {
             m: 5,
