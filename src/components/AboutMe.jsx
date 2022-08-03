@@ -12,8 +12,8 @@ import CodeIcon from '@mui/icons-material/Code';
 
 const AboutMe = () => {
   return (
-    <Box sx={{display: 'flex', backgroundColor: 'white', justifyContent: 'space-around', flexDirection: 'column', alignItems: 'center', minHeight: '100vh'}}>
-      <Typography variant="h2" component="div" sx={{ margin: '5vmin 0'}}>
+    <Box id="about" sx={{display: 'flex', backgroundColor: 'white', justifyContent: 'space-around', flexDirection: 'column', alignItems: 'center', minHeight: '100vh'}}>
+      <Typography variant="h2" component="div" sx={{ margin: '1.5em 0', fontSize: '7vmin'}}>
         About me
       </Typography>
       <Box sx={{width: '80%'}}>

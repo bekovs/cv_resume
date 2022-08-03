@@ -67,8 +67,8 @@ export default function Navbar() {
             Sultan Bekov
           </Typography>
           <Box>
-            <Button sx={{color: 'inherit', mx: 2}}>About me</Button>
-            <Button sx={{color: 'inherit', mx: 2}}>Skills</Button>
+            <Button sx={{color: 'inherit', mx: 2}} href="#about">About me</Button>
+            <Button sx={{color: 'inherit', mx: 2}} href="#skills">Skills</Button>
             <Button sx={{color: 'inherit', mx: 2}}>Contact me</Button>
           </Box>
         </Toolbar>

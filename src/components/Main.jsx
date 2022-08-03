@@ -44,7 +44,7 @@ const Main = () => {
   window.addEventListener('scroll', handleHiddenScroll);
 
   return (
-    <Box sx={style}>
+    <Box sx={style} id="main">
       <Avatar
         alt="S"
         src={avatar}
